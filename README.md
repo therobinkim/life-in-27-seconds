@@ -2,7 +2,7 @@
 
 ## What this?
 
-This is an Electron `.app` bundle that loads Casey Neistat's [Life Explained in 27 Seconds](https://www.youtube.com/watch?v=L9VBpbnXhWk) YouTube movie via [ListenOnRepeat.com](http://listenonrepeat.com/watch/?v=L9VBpbnXhWk#Life_Explained_in_27_Seconds). Basically, you can [download](https://github.com/therobinkim/life-in-27-seconds/archive/master.zip) everything here to your Mac and run it as a regular desktop app!
+This is an Electron `.app` bundle that loads Casey Neistat's [Life Explained in 27 Seconds](https://www.youtube.com/watch?v=L9VBpbnXhWk) YouTube movie via [ListenOnRepeat.com](http://listenonrepeat.com/watch/?v=L9VBpbnXhWk#Life_Explained_in_27_Seconds). Basically, you can [download](https://github.com/therobinkim/life-in-27-seconds/archive/master.zip) everything in this GitHub repository to your Mac and run it as a regular desktop app to watch Casey's movie on repeat!
 
 ## Why make?
 
@@ -16,7 +16,7 @@ I then downloaded `electron-v1.3.4-darwin-x64.zip` from https://github.com/elect
 
 Afterwards, I followed the tips from http://electron.atom.io/docs/tutorial/application-distribution/ and put my `main.js` and `package.json` files in the `Life Explained in 27 Seconds.app/Contents/Resources/app` [directory](./Life%20Explained%20in%2027%20Seconds.app/Contents/Resources/app) (same one from up above).
 
-I tweaked the naems of the helper apps as well. However, renaming `Electron` in the `Life Explained in 27 Seconds.app/Contents/MacOS` [directory](./Life%20Explained%20in%2027%20Seconds.app/Contents/MacOS) to `Life Explained in 27 Seconds` would NOT allow me to open `Life Explained in 27 Seconds.app` any more.
+I tweaked the names of the helper apps as well. However, renaming `Electron` in the `Life Explained in 27 Seconds.app/Contents/MacOS` [directory](./Life%20Explained%20in%2027%20Seconds.app/Contents/MacOS) to `Life Explained in 27 Seconds` would NOT allow me to open `Life Explained in 27 Seconds.app` any more. So, I left its name as `Electron`.
 
 ## What next?
 
